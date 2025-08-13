@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #f1e4de;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -54,6 +54,25 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.main-text {
+  color: #a16aea;
+  font-size: 50px;
+  font-family: 'Lazy Dog', sans-serif;
+  
+}
+
+#raynalipic {
+  max-width: 100%;
+  height: auto;
+  width: 600px;
+  
+}
+
+.mainbody{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
