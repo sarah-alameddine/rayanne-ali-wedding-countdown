@@ -24,10 +24,16 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+p{
+gap: 0;
 }
 
 h1 {
@@ -57,14 +63,23 @@ button:focus-visible {
 .main-text {
   color: #a16aea;
   font-size: 50px;
+  font-weight: bold;
   font-family: 'Lazy Dog', sans-serif;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+.main-text.bottom-text {
+  color: #49326b;
+  font-size: 30px;
+
+}
 #raynalipic {
   max-width: 100%;
   height: auto;
-  width: 600px;
+  width: 500px;
   
 }
 
@@ -72,6 +87,12 @@ button:focus-visible {
   display: flex;
   align-items: center;
   flex-direction:column;
+  text-align: center;
+}
+
+#countdown-text{
+  font-size: 40px;
+
 }
 @media (prefers-color-scheme: light) {
   :root {
