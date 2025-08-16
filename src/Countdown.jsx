@@ -26,8 +26,8 @@ function Countdown() {
   return (
     <>
       <div className="main-text" id="countdown-text">
-        <div id="day">{`${timeLeft.days} Days &`}</div>
-        <div id="hour">{`${timeLeft.hours} HOURS to Go!`}</div>
+    <div id="day"><span className="countdown-number">{timeLeft.days}</span> Days &</div>
+    <div id="hour"><span className="countdown-number">{timeLeft.hours}</span> HOURS to Go!</div>
       </div>
     </>
   );

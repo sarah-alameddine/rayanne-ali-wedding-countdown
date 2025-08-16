@@ -1,3 +1,21 @@
+@media (max-width: 600px) {
+  .main-text {
+    font-size: 28px;
+  }
+  .main-text .countdown-number {
+    font-size: 32px;
+  }
+  .main-text.bottom-text {
+    font-size: 18px;
+  }
+  #raynalipic {
+    width: 90vw;
+    max-width: 250px;
+  }
+  .mainbody {
+    padding: 10px;
+  }
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -69,6 +87,12 @@ button:focus-visible {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.main-text .countdown-number {
+  font-size: 48px;
+  font-weight: 800;
+  color: #4d8763;
+  letter-spacing: 1px;
 }
 
 .main-text.bottom-text {
