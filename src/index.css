@@ -61,7 +61,7 @@ button:focus-visible {
 }
 
 .main-text {
-  color: #a16aea;
+  color: #5f9b76;
   font-size: 50px;
   font-weight: bold;
   font-family: 'Lazy Dog', sans-serif;
@@ -72,14 +72,14 @@ button:focus-visible {
 }
 
 .main-text.bottom-text {
-  color: #49326b;
+  color: #5f9b76;
   font-size: 30px;
 
 }
 #raynalipic {
   max-width: 100%;
   height: auto;
-  width: 500px;
+  width: 400px;
   
 }
 
