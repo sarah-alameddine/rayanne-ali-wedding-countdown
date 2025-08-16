@@ -11,7 +11,7 @@ function App() {
         {/* Bottom words */}
         <div className="main-text">ALI & RAYANNE’s Big Day!</div>
         {/* footer words */}
-        <div className="main-text bottom-text">Saturday 6 september 2025</div>
+        <div className="main-text bottom-text">Saturday 6 September </div>
         <div className="main-text bottom-text">2025</div>
       </div>
     </>
