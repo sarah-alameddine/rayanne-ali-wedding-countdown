@@ -7,7 +7,7 @@ function App() {
       <div className="mainbody">
         <Countdown />
         {/* main pic  */}
-        <img id="raynalipic" src="src/assets/raynali.png"></img>
+        <img id="raynalipic" src="/raynali.png" />
         {/* Bottom words */}
         <div className="main-text">ALI & RAYANNE’s Big Day!</div>
         {/* footer words */}
